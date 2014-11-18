@@ -149,10 +149,6 @@
 		B28FD2C815BF732F00365CD6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B28FD2C715BF732F00365CD6 /* libsqlite3.dylib */; };
 		B28FD2D115BF739300365CD6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B28FD2D015BF739300365CD6 /* libicucore.dylib */; };
 		B28FD2D915BF742D00365CD6 /* Cheddar.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D215BF742D00365CD6 /* Cheddar.entitlements */; };
-		B28FD2DB15BF742D00365CD6 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D515BF742D00365CD6 /* Gotham-Bold.otf */; };
-		B28FD2DC15BF742D00365CD6 /* Gotham-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D615BF742D00365CD6 /* Gotham-BoldItalic.otf */; };
-		B28FD2DD15BF742D00365CD6 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D715BF742D00365CD6 /* Gotham-Book.otf */; };
-		B28FD2DE15BF742D00365CD6 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B28FD2D815BF742D00365CD6 /* Gotham-BookItalic.otf */; };
 		B28FD2E215BF755600365CD6 /* Cheddar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2E015BF755600365CD6 /* Cheddar.xcdatamodeld */; };
 		B28FD2E815BF774D00365CD6 /* CDIDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FD2E715BF774D00365CD6 /* CDIDefines.m */; };
 		B290118A15C49B07008FC626 /* toolbar-background-mini.png in Resources */ = {isa = PBXBuildFile; fileRef = B290118615C49B07008FC626 /* toolbar-background-mini.png */; };
@@ -472,10 +468,6 @@
 		B28FD2C715BF732F00365CD6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		B28FD2D015BF739300365CD6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		B28FD2D215BF742D00365CD6 /* Cheddar.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cheddar.entitlements; sourceTree = "<group>"; };
-		B28FD2D515BF742D00365CD6 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
-		B28FD2D615BF742D00365CD6 /* Gotham-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-BoldItalic.otf"; sourceTree = "<group>"; };
-		B28FD2D715BF742D00365CD6 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
-		B28FD2D815BF742D00365CD6 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
 		B28FD2E115BF755600365CD6 /* Cheddar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cheddar.xcdatamodel; sourceTree = "<group>"; };
 		B28FD2E315BF756800365CD6 /* Cheddar 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Cheddar 2.xcdatamodel"; sourceTree = "<group>"; };
 		B28FD2E415BF761C00365CD6 /* CDIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIDefines.h; sourceTree = "<group>"; };
@@ -1002,10 +994,6 @@
 		B28FD2D315BF742D00365CD6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				B28FD2D515BF742D00365CD6 /* Gotham-Bold.otf */,
-				B28FD2D615BF742D00365CD6 /* Gotham-BoldItalic.otf */,
-				B28FD2D715BF742D00365CD6 /* Gotham-Book.otf */,
-				B28FD2D815BF742D00365CD6 /* Gotham-BookItalic.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -1300,10 +1288,6 @@
 				B208BC9B15BF63A80080705D /* x.png in Resources */,
 				B208BC9C15BF63A80080705D /* x@2x.png in Resources */,
 				B28FD2D915BF742D00365CD6 /* Cheddar.entitlements in Resources */,
-				B28FD2DB15BF742D00365CD6 /* Gotham-Bold.otf in Resources */,
-				B28FD2DC15BF742D00365CD6 /* Gotham-BoldItalic.otf in Resources */,
-				B28FD2DD15BF742D00365CD6 /* Gotham-Book.otf in Resources */,
-				B28FD2DE15BF742D00365CD6 /* Gotham-BookItalic.otf in Resources */,
 				B28F84DB15C37E1D003E4595 /* SSToolkitResources.bundle in Resources */,
 				B2AD02E315C46F7300D9B909 /* nav-back-mini-highlighted.png in Resources */,
 				B2AD02E415C46F7300D9B909 /* nav-back-mini.png in Resources */,
