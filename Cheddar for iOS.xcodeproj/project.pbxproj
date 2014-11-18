@@ -11,6 +11,7 @@
 		21396B6717728AF70040FCA2 /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21396B6317728AE50040FCA2 /* SSPullToRefreshSimpleContentView.m */; };
 		21396B6817728AF70040FCA2 /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */; };
 		21E0A67A16AAE0BA002479F9 /* CDIViewArchiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0A67916AAE0BA002479F9 /* CDIViewArchiveButton.m */; };
+		AEFCCC411A1BB40900737F78 /* Integration.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFCCC401A1BB40900737F78 /* Integration.m */; };
 		B208BC2915BF63A80080705D /* CDIAddListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */; };
 		B208BC2A15BF63A80080705D /* CDIAddTaskAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9515BF63A80080705D /* CDIAddTaskAnimationView.m */; };
 		B208BC2B15BF63A80080705D /* CDIAddTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9715BF63A80080705D /* CDIAddTaskView.m */; };
@@ -216,6 +217,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AEFCCC421A1BB40900737F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B23FA74C151FE0710069A0D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B23FA754151FE0710069A0D1;
+			remoteInfo = "Cheddar for iOS";
+		};
 		B208C1DE15BF63E30080705D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B208BF6715BF63E00080705D /* SSToolkit.xcodeproj */;
@@ -284,6 +292,9 @@
 		21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPullToRefreshView.m; sourceTree = "<group>"; };
 		21E0A67816AAE0BA002479F9 /* CDIViewArchiveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIViewArchiveButton.h; sourceTree = "<group>"; };
 		21E0A67916AAE0BA002479F9 /* CDIViewArchiveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIViewArchiveButton.m; sourceTree = "<group>"; };
+		AEFCCC3C1A1BB40900737F78 /* Integration.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Integration.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFCCC3F1A1BB40900737F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFCCC401A1BB40900737F78 /* Integration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Integration.m; sourceTree = "<group>"; };
 		B208BB9215BF63A80080705D /* CDIAddListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddListTableViewCell.h; sourceTree = "<group>"; };
 		B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIAddListTableViewCell.m; sourceTree = "<group>"; };
 		B208BB9415BF63A80080705D /* CDIAddTaskAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddTaskAnimationView.h; sourceTree = "<group>"; };
@@ -543,6 +554,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AEFCCC391A1BB40900737F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B23FA752151FE0710069A0D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,6 +603,23 @@
 				21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */,
 			);
 			path = SSPullToRefresh;
+			sourceTree = "<group>";
+		};
+		AEFCCC3D1A1BB40900737F78 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				AEFCCC401A1BB40900737F78 /* Integration.m */,
+				AEFCCC3E1A1BB40900737F78 /* Supporting Files */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+		AEFCCC3E1A1BB40900737F78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEFCCC3F1A1BB40900737F78 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B208BB9115BF63A80080705D /* Classes */ = {
@@ -978,6 +1013,7 @@
 				B208BBD015BF63A80080705D /* Other Sources */,
 				B208BBD315BF63A80080705D /* Resources */,
 				B208BC9D15BF63E00080705D /* Vendor */,
+				AEFCCC3D1A1BB40900737F78 /* Integration */,
 				B208C1FC15BF64690080705D /* Frameworks */,
 				B23FA756151FE0710069A0D1 /* Products */,
 			);
@@ -987,6 +1023,7 @@
 			isa = PBXGroup;
 			children = (
 				B23FA755151FE0710069A0D1 /* Cheddar.app */,
+				AEFCCC3C1A1BB40900737F78 /* Integration.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1097,6 +1134,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AEFCCC3B1A1BB40900737F78 /* Integration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFCCC441A1BB40900737F78 /* Build configuration list for PBXNativeTarget "Integration" */;
+			buildPhases = (
+				AEFCCC381A1BB40900737F78 /* Sources */,
+				AEFCCC391A1BB40900737F78 /* Frameworks */,
+				AEFCCC3A1A1BB40900737F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFCCC431A1BB40900737F78 /* PBXTargetDependency */,
+			);
+			name = Integration;
+			productName = Integration;
+			productReference = AEFCCC3C1A1BB40900737F78 /* Integration.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B23FA754151FE0710069A0D1 /* Cheddar for iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B23FA772151FE0710069A0D1 /* Build configuration list for PBXNativeTarget "Cheddar for iOS" */;
@@ -1127,6 +1182,12 @@
 				CLASSPREFIX = CDI;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Nothing Magical";
+				TargetAttributes = {
+					AEFCCC3B1A1BB40900737F78 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B23FA754151FE0710069A0D1;
+					};
+				};
 			};
 			buildConfigurationList = B23FA74F151FE0710069A0D1 /* Build configuration list for PBXProject "Cheddar for iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1166,6 +1227,7 @@
 			projectRoot = "";
 			targets = (
 				B23FA754151FE0710069A0D1 /* Cheddar for iOS */,
+				AEFCCC3B1A1BB40900737F78 /* Integration */,
 			);
 		};
 /* End PBXProject section */
@@ -1209,6 +1271,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AEFCCC3A1A1BB40900737F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B23FA753151FE0710069A0D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1365,6 +1434,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AEFCCC381A1BB40900737F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFCCC411A1BB40900737F78 /* Integration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B23FA751151FE0710069A0D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1431,6 +1508,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AEFCCC431A1BB40900737F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B23FA754151FE0710069A0D1 /* Cheddar for iOS */;
+			targetProxy = AEFCCC421A1BB40900737F78 /* PBXContainerItemProxy */;
+		};
 		B208C1E815BF64240080705D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSToolkit;
@@ -1449,6 +1531,80 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AEFCCC451A1BB40900737F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Integration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheddar.app/Cheddar";
+			};
+			name = Debug;
+		};
+		AEFCCC461A1BB40900737F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Integration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheddar.app/Cheddar";
+			};
+			name = Release;
+		};
 		B23FA770151FE0710069A0D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1590,6 +1746,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AEFCCC441A1BB40900737F78 /* Build configuration list for PBXNativeTarget "Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFCCC451A1BB40900737F78 /* Debug */,
+				AEFCCC461A1BB40900737F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B23FA74F151FE0710069A0D1 /* Build configuration list for PBXProject "Cheddar for iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
