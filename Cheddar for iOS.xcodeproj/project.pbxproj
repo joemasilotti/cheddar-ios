@@ -12,7 +12,6 @@
 		21396B6717728AF70040FCA2 /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21396B6317728AE50040FCA2 /* SSPullToRefreshSimpleContentView.m */; };
 		21396B6817728AF70040FCA2 /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */; };
 		21E0A67A16AAE0BA002479F9 /* CDIViewArchiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0A67916AAE0BA002479F9 /* CDIViewArchiveButton.m */; };
-		AEFCCC411A1BB40900737F78 /* Integration.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFCCC401A1BB40900737F78 /* Integration.m */; };
 		B208BC2915BF63A80080705D /* CDIAddListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */; };
 		B208BC2A15BF63A80080705D /* CDIAddTaskAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9515BF63A80080705D /* CDIAddTaskAnimationView.m */; };
 		B208BC2B15BF63A80080705D /* CDIAddTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9715BF63A80080705D /* CDIAddTaskView.m */; };
@@ -297,7 +296,6 @@
 		855C9A164ABB22265B53B546 /* libPods-Integration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Integration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFCCC3C1A1BB40900737F78 /* Integration.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Integration.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFCCC3F1A1BB40900737F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEFCCC401A1BB40900737F78 /* Integration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Integration.m; sourceTree = "<group>"; };
 		B208BB9215BF63A80080705D /* CDIAddListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddListTableViewCell.h; sourceTree = "<group>"; };
 		B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIAddListTableViewCell.m; sourceTree = "<group>"; };
 		B208BB9415BF63A80080705D /* CDIAddTaskAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddTaskAnimationView.h; sourceTree = "<group>"; };
@@ -622,7 +620,6 @@
 		AEFCCC3D1A1BB40900737F78 /* Integration */ = {
 			isa = PBXGroup;
 			children = (
-				AEFCCC401A1BB40900737F78 /* Integration.m */,
 				AEFCCC3E1A1BB40900737F78 /* Supporting Files */,
 			);
 			path = Integration;
@@ -1486,7 +1483,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFCCC411A1BB40900737F78 /* Integration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
