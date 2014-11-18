@@ -1479,7 +1479,7 @@
 				ICON_57 = "DevIcon-57.png";
 				ICON_58 = "DevIcon-58.png";
 				ICON_72 = "DevIcon-72.png";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1507,7 +1507,7 @@
 				ICON_57 = "Icon-57.png";
 				ICON_58 = "Icon-58.png";
 				ICON_72 = "Icon-72.png";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1535,7 +1535,6 @@
 					"\"$(SRCROOT)/Vendor/TextExpander.framework/Versions/A/Headers\"",
 				);
 				INFOPLIST_FILE = "Resources/Cheddar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRANK_LIBRARY_SEARCH_PATHS)",
@@ -1576,7 +1575,6 @@
 					"\"$(SRCROOT)/Vendor/TextExpander.framework/Versions/A/Headers\"",
 				);
 				INFOPLIST_FILE = "Resources/Cheddar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",

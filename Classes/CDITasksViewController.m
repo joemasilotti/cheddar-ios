@@ -117,7 +117,6 @@
 	self.managedObject = nil;
 	
 	dispatch_semaphore_wait(_createTaskSemaphore, DISPATCH_TIME_FOREVER);
-	dispatch_release(_createTaskSemaphore);
 }
 
 
